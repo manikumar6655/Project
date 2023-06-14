@@ -1,0 +1,11 @@
+//button[text()='Customer Login']//customelogin
+//select[@id="userSelect"]//your name
+//button[@type="submit"]//click login
+//button[@ng-click="transactions()"]//click transactions
+//button[@ng-click="deposit()"]//deposit
+//input[@type="number"]//amount to be deoposited
+//button[@type="submit"]//click deposit button
+//button[@ng-click="byebye()"]//logout
+//select[@id="accountSelect"]//for currency changing
+//span[text()='Deposit Successful']//deposit succesfull
+

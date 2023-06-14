@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunnerForEcommerce
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 10.473 sec <<< FAILURE!
+Add a customer(Customer)  Time elapsed: 10.069 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable must exist: \\Cucumber\Driver\msedgedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:39)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:70)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+	at StepDefinition.Login.user_launch_the_browser(Login.java:20)
+	at ✽.: User Launch the browser(file:///C:/JavaEclipse/Cucumber/features/Customers.feature:6)
+
+Search customer by email id(Customer)  Time elapsed: 0.021 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable must exist: \\Cucumber\Driver\msedgedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:39)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:70)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+	at StepDefinition.Login.user_launch_the_browser(Login.java:20)
+	at ✽.: User Launch the browser(file:///C:/JavaEclipse/Cucumber/features/Customers.feature:22)
+
